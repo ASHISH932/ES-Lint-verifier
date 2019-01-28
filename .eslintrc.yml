@@ -1,0 +1,38 @@
+env:
+  browser: true
+  es6: true
+extends: 'eslint:recommended'
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+  ecmaVersion: 2018
+  sourceType: module
+plugins:
+  - react
+rules:
+  indent:
+    - error
+    - tab
+  expire: 
+    - off
+    - hi
+  generator-star: 
+    - off
+    - hi
+  global-strict:
+    - off
+    - hi
+  newline-before-return:
+    - error
+  lines-around-directive:
+    - error
+    - linux
+  linebreak-style:
+    - error
+    - unix
+  quotes:
+    - error
+    - single
+  semi:
+    - error
+    - always

@@ -1,0 +1,28 @@
+{
+  "name": "es_lint_verifier",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run server",
+    "server": "node ./server/app.js",
+    "test": "eslint public/js/vanilla && mocha test",
+    "test-linter": "node eslintScript.js -p './.eslintrc.json' -f ./homeGrownLint/rules"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "dependencies": {
+    "debug": "^2.2.0",
+    "ejs": "~2.3.3",
+    "express": "~4.13.1",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "eslint": "^5.12.1",
+    "js-yaml": "^3.12.1",
+    "mocha": "^2.5.3",
+    "pre-commit": "^1.1.3"
+  }
+}
