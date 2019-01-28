@@ -6,9 +6,7 @@ This tool is used to check the deprecated and removed rules after migration to a
 The scipt file required in problem statement is `eslintScript.js`
 It return three list  
     - Deprecated Rules list    
-    
     - Removed rules list    
-    
     - New Rules list(List of rules which could replace derecated rule and supported by ESlint)  
 
 ### Implementation
