@@ -4,10 +4,10 @@ This tool is used to check the deprecated and removed rules after migration to a
 
 ## Problem Statement
 The scipt file required in problem statement is `eslintScript.js`
-It return three list
-    - Deprecated Rules list
-    - Removed rules list
-    - New Rules list(List of rules which could replace derecated rule and supported by ESlint)
+It return three list  
+    - Deprecated Rules list  
+    - Removed rules list  
+    - New Rules list(List of rules which could replace derecated rule and supported by ESlint)  
 
 ### Implementation
 It requires no input, by default it searches for default eslint config files.
