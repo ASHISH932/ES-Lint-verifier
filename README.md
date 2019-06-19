@@ -1,9 +1,9 @@
 # ES Lint verifier
 
-This tool is used to check the deprecated and removed rules after migration to a newer version of ESlint
+This tool is used to check the deprecated and removed ES lint rules in a newer version of ESlint
 
-## Problem Statement
-The scipt file required in problem statement is `eslintScript.js`
+## Script File
+The scipt file is `eslintScript.js`
 It return three list  
     - Deprecated Rules list    
     - Removed rules list    
