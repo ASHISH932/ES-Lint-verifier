@@ -23,7 +23,7 @@ For more information on using flag use help
 ```bash
 git clone https://github.com/ASHISH932/ES-Lint-verifier.git
 cd ES-Lint-verifier
-npm intsall
+npm install
 ```
 
 ## Usage
